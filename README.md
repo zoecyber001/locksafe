@@ -13,7 +13,6 @@ This script provides an easy way to securely lock and unlock a folder using LUKS
 <ul>cryptsetup installed</ul>
 <ul>zenity installed</ul>
 
-
 <h2>Installation and Setup</h2>
 Follow these steps to set up and use the Lock Safe script:
 
