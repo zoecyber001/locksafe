@@ -1,0 +1,19 @@
+# Ignore system-specific files
+.DS_Store
+Thumbs.db
+
+# Ignore logs and temporary files
+*.log
+*.tmp
+
+# Ignore compiled binaries if any
+*.exe
+*.o
+
+# Ignore package directories
+/node_modules
+/vendor
+
+# Add other specific files or directories your script generates or interacts with
+locksafe.img
+*.mount
