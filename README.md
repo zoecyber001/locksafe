@@ -15,7 +15,9 @@
 
 <h2>Installation and Setup</h2>
 Follow these steps to set up and use the Lock Safe script:
+<br>
 
+<h3><b> First clone the first into a directory: <i>git clone https://github.com/zoecyber001/locksafe</i></b></h3>
 <h3>Step 1: Install Required Tools</h3>
 <ul>Install cryptsetup and zenity.</ul>
 <h3>Open a terminal and run the following commands:</h3>
