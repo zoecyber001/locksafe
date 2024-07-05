@@ -1,6 +1,6 @@
-<b><h1>Lock Safe Script</h1></b>
+<b><h1>Lock Safe</h1></b>
 
-This script provides an easy way to securely lock and unlock a folder using LUKS encryption on Linux. The folder acts as a "lock safe" for your sensitive files. This script has been tested on Linux.
+<p>This bash script provides an easy way to securely lock and unlock a folder using LUKS encryption on Linux. The folder acts as a "lock safe" for your sensitive files. This script has been tested on Linux.</p>
 
 <h2>Features</h2>
 
