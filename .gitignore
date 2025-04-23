@@ -1,19 +1,39 @@
-# Ignore system-specific files
+# LockSafe Bash Project .gitignore
+
+# Backup & temporary files
+*.bak
+*.tmp
+*~
+
+# Logs
+*.log
+
+# Mount points (runtime dirs)
+locksafe_mount/
+
+# Compiled or cached files (in case of future use)
+*.pyc
+__pycache__/
+
+# Icon or desktop launchers generated locally
+locksafe.desktop
+locksafe.jpeg
+
+# LockSafe image if testing locally
+locksafe.img
+
+# Scripts generated or copied into user's home
+~/locksafe.sh
+~/install_locksafe.sh
+
+# System or package manager files
 .DS_Store
 Thumbs.db
 
-# Ignore logs and temporary files
-*.log
-*.tmp
+# VS Code and JetBrains
+.vscode/
+.idea/
 
-# Ignore compiled binaries if any
-*.exe
-*.o
-
-# Ignore package directories
-/node_modules
-/vendor
-
-# Add other specific files or directories your script generates or interacts with
-locksafe.img
-*.mount
+# OS-generated files
+ehthumbs.db
+Icon?
